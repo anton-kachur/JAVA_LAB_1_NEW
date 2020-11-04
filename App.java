@@ -1,6 +1,7 @@
 
     private static class App extends Creator
     {
+        //агрегация
         MapCreator new_map;
 
         App(MapCreator b) {

@@ -61,9 +61,16 @@ private static class Map
             }
         }
 
+    
+        public boolean equals(Map obj) {
+            return (obj == null);
+        }
 
+    
         //**************Methods for setting map components and representing them*****************************
         private void printMap() {
+            if (equals(this))
+                System.out.println("Map is empty!");
             for (Road i : roads) i.printAll();
             for (Reservoir i : reservoirs) i.printAll();
             for (Building i : buildings) i.printAll();

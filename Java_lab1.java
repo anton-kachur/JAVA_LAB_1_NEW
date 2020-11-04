@@ -5,6 +5,17 @@ import java.lang.*;
 //Anton Kachur TI-82
 //Task: 7.Create a map using Java
 
+/*
+Changes: 
+removed: pattern "Builder" 
+added:   MyException.java,
+         interface SetOfMapMethods,
+         abstract class Creator,
+         enum Scale,
+         Collections method sort (prints the list of localities)
+*/
+                    
+
 public class Java_lab1 {
 
     private static String [] road_types = {"Dirt", "Asphalt", "Paving stone"};

@@ -1,11 +1,11 @@
 public static class MapCreator extends MyException implements SetOfMapMethods
     {
+        //композиция и ассоциация
         private Map map;
         Random random;
 
         MapCreator () {
             map = new Map();
-            random = new Random();
         }
 
         public void setRoads(int n, boolean b) throws MyException {
